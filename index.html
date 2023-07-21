@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Simple Website</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    
+    /* Make the body background pink */
+    body {
+      
+      background-color: pink;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    /* Centered game frame */
+    .game-frame {
+      width: 800px;
+      height: 400px;
+      margin: 0 auto;
+      border: 2px solid white;
+      /* Add white border */
+      box-sizing: border-box;
+      /* Add box-sizing property */
+    }
+
+    /* Make the inside of the game frame black */
+    .game-frame {
+      background-color: black;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="game-frame">
+
+    <!-- Your game content goes here -->
+    <h1 id="unicorn-title" style="position: absolute;">UNICORN HOUSE</h1>
+    <canvas id="canvas" width="800" height="400"></canvas>
+  </div>
+  <script src="script.js"></script>
+  
+</body>
+
+</html>

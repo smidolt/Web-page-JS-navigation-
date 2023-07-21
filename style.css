@@ -1,0 +1,42 @@
+
+body {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.game-frame {
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+  border: 2px solid white;
+
+  box-sizing: border-box;
+
+}
+
+
+.game-frame {
+  background-color: black;
+}
+ h1 {
+   font-family: Arial, sans-serif;
+   font-size: 5em;
+   color: pink;
+   text-shadow: -1px -1px 0 #ff66cc, -2px -2px 0 #ff66cc, -3px -3px 0 #ff66cc, -4px -4px 0 #ff66cc, -5px -5px 0 #ff66cc, -6px -6px 0 #ff66cc, -7px -7px 0 #ff66cc, -8px -8px 0 #ff66cc, -9px -9px 0 #ff66cc, -10px -10px 0 #ff66cc, -11px -11px 0 #ff66cc, -12px -12px 0 #ff66cc;
+   transform: rotateX(30deg) rotateY(-30deg);
+ }
+         .unicorn {
+           position: absolute;
+           bottom: 0;
+           /* Change this to top if you want the unicorn to be on top of the game frame */
+           left: 50%;
+           transform: translateX(-90%);
+           width: 400px;
+           /* Adjust this as you like */
+         }
+
+
